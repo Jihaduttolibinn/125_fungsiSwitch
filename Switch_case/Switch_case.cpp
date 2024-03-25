@@ -32,10 +32,20 @@ int Pembagian(int bil_1, int bil_2) {
     return bil_1 / bil_2;
 }
 
-
-
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+int pilihan;
 
+do {
+    system("cls");
+    cout << "=========menu========" << endl;
+    cout << "1. Penjumlahan" << endl;
+    cout << "2. Pengurangan" << endl;
+    cout << "3. Perkalian" << endl;
+    cout << "4. Pembagian" << endl;
+    cout << "5. Keluar" << endl;
+    cout << "Masukan menu yang ingin di pilih (1/2/3/4/5):" << endl;
+    cin >> pilihan;
+
+    switch (pilihan)
+}
