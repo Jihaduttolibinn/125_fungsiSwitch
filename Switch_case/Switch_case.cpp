@@ -48,4 +48,16 @@ do {
     cin >> pilihan;
 
     switch (pilihan)
+    {
+    case 1:
+        input();
+        cout << "Hasil penjumlahan = " << penjumlahan(a, b) << endl;
+        system("pause");
+        break;
+
+
+
+
+
+
 }
