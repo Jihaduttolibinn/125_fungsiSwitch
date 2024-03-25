@@ -61,6 +61,11 @@ do {
         system("pause");
         break;
 
+    case 3:
+        input();
+        cout << "Hasil perkalian = " << perkalian(a, b) << endl;
+        system("pause");
+        break;
 
 
 
