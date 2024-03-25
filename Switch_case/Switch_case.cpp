@@ -55,6 +55,11 @@ do {
         system("pause");
         break;
 
+    case 2:
+        input();
+        cout << "Hasil pengurangan = " << pengurangan(a, b) << endl;
+        system("pause");
+        break;
 
 
 
